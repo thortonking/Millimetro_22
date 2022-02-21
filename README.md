@@ -7,7 +7,7 @@ This code has been released online for transparency and in order to encourage fu
 
 ## Installation/Requirements
 
-The Millimetro code is run on MATLAB, version R2021a or later (earlier installations may work). To install, download all files in this repository, and open up sample_code.m in MATLAB. Set the downloaded folder as your working directory, then run the code. 
+The Millimetro code is run on MATLAB, version R2021a or later (earlier installations may work). To install, download all files included with this repository into a folder and open sample_code.m in MATLAB. Set the downloaded folder as your working directory, then run the code. 
 
 ## Features
 Running the code will take all frames of data in some collection and perform a set of operations in this order: a set of Fourier Transforms, matched filtering to locate the tag's range,  matched filtering to locate the tag's angle of approach, and then comparisons to ground truth data, if it was collected. It is recommend to put a breakpoint at the end of the code in order to visualize the results from each data collection.
