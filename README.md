@@ -25,15 +25,3 @@ Listed below are some of the parameters of interest.
 | RDAll | (range bin, doppler bin, frame number, antenna) | The range-doppler data from the radar |
 
 The code is currently configured to process all of the data from a file at once in order to improve performance. It is fairly easy to restructure it from its current state into a version which runs frame by frame while collecting data (i.e. the data frames are processed using a causal system).
-
-##File List
-| File name | Description |
-| ------ | ----- |
-| sample_code | Main file to handle millimetro processing |
-| importCSV | Imports data from a .csv file |
-| findPeaks2D | Helper function to locate the peak of the matched filter |
-| aruco_calc |  Derives grund truth parameters from imported .csv file |
-| tagRangeErr | Calculated error of the tag to gt |
-| tagAoAErr | Calculated error of the tag to gt |
-| RPExtAll | The range-profile data from the radar |
-| RDAll | The range-doppler data from the radar |
