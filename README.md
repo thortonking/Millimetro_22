@@ -1,7 +1,7 @@
 # Millimetro
  Sample data and processing backend for Millimetro, a long-range tag-based mmWave localization system.
 
-Millimetro is a tag-based localization system which operates accurately at ranges up to 50 m. This repository contains the MATLAB files required to run it as well as a collection of sample collected data files to demonstrate it's capabilities.
+Millimetro is a tag-based localization system which operates accurately at long ranges to accurately localize mulitple modulating tags. This repository contains the MATLAB files required to run it as well as sample collected data files to demonstrate its capabilities. The sample_code.m file contains the signal processing for the back-end of Millimetro with other .m files used as helper functions. The data folder has 4 different datasets: a static dataset with long-range tags, a dataset with a mobile radar and static tags, a dataset with tags moving across angle of arrival, and a dataset with two tags while colocated in range operating at different modulation frequencies.
 
 This code has been released online for transparency and in order to encourage further development in the area.
 
@@ -25,3 +25,15 @@ Listed below are some of the parameters of interest.
 | RDAll | (range bin, doppler bin, frame number, antenna) | The range-doppler data from the radar |
 
 The code is currently configured to process all of the data from a file at once in order to improve performance. It is fairly easy to restructure it from its current state into a version which runs frame by frame while collecting data (i.e. the data frames are processed using a causal system).
+
+##File List
+| File name | Description |
+| ------ | ----- |
+| sample_code | Main file to handle millimetro processing |
+| importCSV | Imports data from a .csv file |
+| findPeaks2D | Helper function to locate the peak of the matched filter |
+| aruco_calc |  Derives grund truth parameters from imported .csv file |
+| tagRangeErr | Calculated error of the tag to gt |
+| tagAoAErr | Calculated error of the tag to gt |
+| RPExtAll | The range-profile data from the radar |
+| RDAll | The range-doppler data from the radar |
