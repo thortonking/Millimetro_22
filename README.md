@@ -3,7 +3,7 @@
 
 Millimetro is a tag-based localization system which operates accurately at long ranges to accurately localize mulitple modulating tags. This repository contains the MATLAB files required to run it as well as sample collected data files to demonstrate its capabilities.
 
-The sample_code.m file contains the signal processing for the back-end of Millimetro with other .m files used as helper functions. The data folder has 4 different datasets: a static dataset with long-range tags, a dataset with a mobile radar and static tags, a dataset with tags moving across angle of arrival, and a dataset with two tags while colocated in range operating at different modulation frequencies.
+The sample_code.m file contains the signal processing back-end of Millimetro, while other .m files used as helper functions. The data folder has 4 different datasets: a static dataset with long-range tags, a dataset with a mobile radar and static tags, a dataset with tags moving across angle of arrival, and a dataset with two tags while colocated in range operating at different modulation frequencies.
 
 This code has been released online for transparency and in order to encourage further development in the area.
 
