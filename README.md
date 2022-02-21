@@ -1,5 +1,5 @@
 # Millimetro
- Sample data and processing backend for Millimetro, a long-range tag-based mmWave localization system
+ Sample data and processing backend for Millimetro, a long-range tag-based mmWave localization system.
 
 Millimetro is a tag-based localization system which operates accurately at ranges up to 50 m. This repository contains the MATLAB files required to run it as well as a collection of sample collected data files to demonstrate it's capabilities.
 
