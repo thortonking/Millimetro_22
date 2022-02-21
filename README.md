@@ -3,6 +3,8 @@
 
 Millimetro is a tag-based localization system which operates accurately at ranges up to 50 m. This repository contains the MATLAB files required to run it as well as a collection of sample collected data files to demonstrate it's capabilities.
 
+This code has been released online for transparency and in order to encourage further development in the area.
+
 ## Installation/Requirements
 
 The Millimetro code is run on MATLAB, version R2021a or later (earlier installations may work). To install, download all files in this repository, and open up sample_code.m in MATLAB. Set the downloaded folder as your working directory, the run the code. 
